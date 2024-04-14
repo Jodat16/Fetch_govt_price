@@ -63,3 +63,8 @@ for table_img in table_images:
         apple_image_path = os.path.splitext(output_image_path)[0] + "apple_" +  date + ".jpg"
         apple_crop_box = [600, 410, 1110, 460]  # Example crop box coordinates (left, top, right, bottom)
         crop_image(input_image_path, apple_image_path, apple_crop_box)
+
+        # Define the crop box for apple
+        orange_image_path = os.path.splitext(output_image_path)[0] + "orange_" +  date + ".jpg"
+        orange_crop_box = [10, 277, 550, 345]  # Example crop box coordinates (left, top, right, bottom)
+        crop_image(input_image_path, orange_image_path, orange_crop_box)
