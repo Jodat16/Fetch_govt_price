@@ -10,7 +10,8 @@ def get_max_from_json(filename):
 
 directory = "./price_json"  # Update this with the path to your directory
 output_file = "price_list.json"
-today_date = datetime.today().strftime('%d%b%Y')
+#today_date = datetime.today().strftime('%d%b%Y')
+today_date = datetime.today().strftime('%Y-%m-%d')
 max_values = {}
 
 # Iterate over all files in the directory

@@ -9,10 +9,17 @@
         "apple": 175,
         "banana": 170
     },
-    "15Apr2024": {
+    "2024-04-15": {
         "applegolden": 204,
         "apple": 175,
         "banana": 155,
         "orange": 307
-    }
+    },
+    "2024-04-16": {},
+    "2024-04-17": {
+        "apple_golden": 210,
+        "apple": 185,
+        "banana": 160,
+        "orange": 322
+    },
 }
