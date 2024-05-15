@@ -14,3 +14,22 @@ Fetching fruits and vegetables daily price from government website
 Simply go to ...../Fetch_govt_price/   
 Run following command in terminal :
        uvicorn serve_prices:app --reload --host 0.0.0.0 --port 8000 
+
+# Docker container
+
+Video link :
+https://www.youtube.com/watch?v=HyCO6nMdxC0
+
+To build docker image : 
+docker build -t govtprice-image .
+
+To create docker container out of image and run : 
+docker run -d --name govtprice-cont -p 8030:8030 govtprice-image
+
+To login from our terminal into remote azure container registry(get credentails from access keys of the container registry)
+docker login server_url -u user_name -p password  
+
+To build in remote registry
+docker build -t registryqualityassessmentapi.azurecr.io/govtprice-image . 
+
+docker push registryqualityassessmentapi.azurecr.io/govtprice-image

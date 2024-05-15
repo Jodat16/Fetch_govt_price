@@ -1,0 +1,12 @@
+requests==2.31.0
+uvicorn==0.29.0
+bs4==0.0.2
+pdf2image==1.17.0
+fastapi==0.110.0
+# datetime
+# cv2
+numpy==1.25.0
+pillow==10.2.0
+cloudmersive_ocr_api_client==4.0.1
+# cloudmersive_ocr_api_client.rest
+# subprocess

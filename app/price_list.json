@@ -22,4 +22,25 @@
         "banana": 160,
         "orange": 322
     },
+    "2024-04-22": {
+        "apple_golden": 210,
+        "apple": 185,
+        "banana": 160,
+        "orange": 322
+    },
+    "2024-05-13": {
+        "banana": 160, 
+        "orange": 322, 
+        "apple": 185, 
+        "apple_golden": 210,
+        "tomato": 90
+    },
+    "2024-05-16": {
+        "banana": 160, 
+        "orange": 322, 
+        "apple": 185, 
+        "apple_golden": 210,
+        "tomato": 115,
+        "greenchilli": 115
+    }
 }

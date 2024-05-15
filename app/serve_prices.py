@@ -3,9 +3,7 @@ from datetime import datetime
 import json
 
 # To execute this API : uvicorn serve_prices:app --reload --host 0.0.0.0 --port 8001
-
 app = FastAPI()
-
 
 # Define route to handle date input
 @app.get("/{date}")
